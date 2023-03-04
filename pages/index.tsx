@@ -3,6 +3,9 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 // import styles from "@/styles/Home.module.css";
 
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -11,11 +14,30 @@ export default function Home() {
       <Head>
         <title>Anand Shukla</title>
       </Head>
-      <main>
-        <div>
-          <h1 className="text-3xl font-bold text-blue-500">Hello Next.js 😍✌</h1>
-        </div>
-      </main>
+      
+      {/* Header */}
+      <Header/>
+      {/* Hero */}
+      <section id="hero">
+        <Hero/>
+      </section>
+      
+      {/* About */}
+      
+      
+      {/* Experience */}
+      
+      
+      {/* Skills */}
+      
+      
+      {/* Projects */}
+      
+      
+      {/* Contact Me */}
+      
+      
+      {/* Footer */}
     </>
   );
 }
