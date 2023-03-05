@@ -6,6 +6,7 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
+import Experience from "@/components/Experience";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,17 +22,18 @@ export default function Home() {
       {/* Hero */}
       <section id="hero" className=" snap-start">
         <Hero/>
-      </section>
-      {/* ... minutes onwards... */}
+      </section>      
       
       {/* About */}
       <section id="about" className="snap-center">
         <About/>
       </section>
-      
-      
+          
       {/* Experience */}
-      
+      <section id="experience" className="snap-center">
+        <Experience/>
+      </section>
+      {/* 1:38:00 onwards... */}
       
       {/* Skills */}
       

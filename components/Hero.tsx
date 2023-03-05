@@ -37,7 +37,7 @@ function Hero({}: Props) {
       </h2>
 
       <div className="pt-5 z-20">
-        <Link href="#About">
+        <Link href="#about">
           <button className="heroButton">About</button>
         </Link>
         <Link href="#experience">
